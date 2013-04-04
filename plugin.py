@@ -17,7 +17,7 @@ from Components.ScrollLabel import ScrollLabel
 from Components.Sources.StaticText import StaticText
 from Components.Harddisk import harddiskmanager
 from Components.NimManager import nimmanager
-#from Tools.DreamboxHardware import getFPVersion
+from Tools.DreamboxHardware import getFPVersion
 from Tools.Directories import SCOPE_SKIN_IMAGE, resolveFilename
 from Tools import Notifications
 from Tools.LoadPixmap import LoadPixmap
@@ -25,7 +25,7 @@ import xml.dom.minidom
 from ServiceReference import ServiceReference
 import os, sys
 from os import listdir
-from twisted.web.client import downloadPage
+from twisted.web.client import downloadPage 
 import urllib
 
 ###################################            
